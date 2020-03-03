@@ -48,8 +48,8 @@ Install to use the tab completion function.
 
 .. code-block:: bash
 
-    # eiputil install bash
-    bash completion installed in /root/.bash_completion
+    $ eiputil install bash
+    bash completion installed in /home/user/.bash_completion
 
 Describe Elastic IP addresses.
 ==================================================
@@ -75,6 +75,8 @@ Displays a list of EIPs.
     }
 
 To display only addresses that are not associated with an instance, specify the --unassigned-only option.
+
+.. code-block:: bash
 
     $ eiputil describe --unassigned-only
     {
